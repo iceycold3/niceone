@@ -2,7 +2,7 @@ html {
 	height: 100%;
 }
 body {
-	background: #ffebee;
+	background: #ffe0e0; /* More red, less pink background */
 	height: 90%;
 	margin: 0;
 	padding: 1em;
@@ -14,7 +14,7 @@ body {
 textarea {
 	background: transparent;
 	border: 0;
-	color: #7d0000;
+	color: #8b0000; /* Darker red text */
 	font-family: monospace;
 	font-size: 1em;
 	height: 100%;
@@ -39,7 +39,7 @@ pre {
 	counter-reset: line-numbering;
 }
 pre .line::before {
-	color: #cc6e6e; 
+	color: #b33030; /* Stronger red for line numbers */
 	content: counter(line-numbering);
 	counter-increment: line-numbering;
 	display: inline-block;
@@ -54,7 +54,7 @@ pre .line::before {
 	user-select: none;
 }
 #tools {
-	background: #f8d0d0;
+	background: #d64141; /* More definitely red toolbar */
 	bottom: 0;
 	font-size: 0;
 	left: 0;
