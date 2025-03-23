@@ -16,7 +16,7 @@ config.host = process.env.HOST || config.host || 'localhost';
 // logger-setup
 logger.remove(logger.transports.Console);
 logger.add(logger.transports.Console, {colorize: true, level: 'verbose'});
-logger.info('Welcome to niceone.lol!');
+logger.info('Welcome to thigh.pics!');
 
 // init file-storage
 var fileStorage = new FileStorage(config.dataPath);

@@ -1,23 +1,20 @@
 html {
 	height: 100%;
 }
-
 body {
-	background: #002B36;
+	background: #ffebee;
 	height: 90%;
 	margin: 0;
 	padding: 1em;
 }
-
 #content {
 	height: 100%;
 	padding: 0;
 }
-
 textarea {
 	background: transparent;
 	border: 0;
-	color: #fff;
+	color: #7d0000;
 	font-family: monospace;
 	font-size: 1em;
 	height: 100%;
@@ -26,7 +23,6 @@ textarea {
 	resize: none;
 	width: 100%;
 }
-
 #code {
 	border: 0;
 	font-size: 1em;
@@ -35,25 +31,21 @@ textarea {
 	padding: 0 0 4em 0;
 	white-space: pre-wrap;
 }
-
 #code code {
 	background: transparent !important;
 	padding: 0;
 }
-
 pre {
 	counter-reset: line-numbering;
 }
-
 pre .line::before {
-	color: #4c6a71;
+	color: #cc6e6e; 
 	content: counter(line-numbering);
 	counter-increment: line-numbering;
 	display: inline-block;
 	margin-right: 1em;
 	text-align: right;
 	width: 1.5em !important;
-
 	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
@@ -61,16 +53,14 @@ pre .line::before {
 	-ms-user-select: none;
 	user-select: none;
 }
-
 #tools {
-	background: #08323c;
+	background: #f8d0d0;
 	bottom: 0;
 	font-size: 0;
 	left: 0;
 	position: fixed;
 	width: 100%;
 }
-
 #tools .function {
 	background: url(function-icons.png);
 	display: inline-block;
@@ -78,59 +68,45 @@ pre .line::before {
 	position: relative;
 	width: 32px;
 }
-
 #tools .link embed {
 	vertical-align: bottom;
 }
-
 #tools .function.enabled:hover {
 	cursor: pointer;
 }
-
 #tools .function.save {
 	background-position: -5px top;
 }
-
 #tools .function.enabled.save {
 	background-position: -5px center;
 }
-
 #tools .function.enabled.save:hover {
 	background-position: -5px bottom;
 }
-
 #tools .function.new {
 	background-position: -42px top;
 }
-
 #tools .function.enabled.new {
 	background-position: -42px center;
 }
-
 #tools .function.enabled.new:hover {
 	background-position: -42px bottom;
 }
-
 #tools .function.duplicate {
 	background-position: -79px top;
 }
-
 #tools .function.enabled.duplicate {
 	background-position: -79px center;
 }
-
 #tools .function.enabled.duplicate:hover {
 	background-position: -79px bottom;
 }
-
 #tools .function.raw {
 	background-position: -116px top;
 }
-
 #tools .function.enabled.raw {
 	background-position: -116px center;
 }
-
 #tools .function.enabled.raw:hover {
 	background-position: -116px bottom;
 }

@@ -1,8 +1,8 @@
 {
-	"name": "niceone.lol",
-	"description": "niceone.lol is an pastebin-like website written in node.js.",
+	"name": "thigh.pics",
+	"description": "thigh.pics is an pastebin-like website written in node.js.",
 	"repository": "https://github.com/iceycold3/niceone",
-	"logo": "https://raw.githubusercontent.com/MarvinMenzerath/HastebinPlus/master/static/favicon.png",
+	"logo": "https://github.com/iceycold3/niceone/blob/master/static/favicon.png",
 	"keywords": [
 		"node",
 		"paste",
