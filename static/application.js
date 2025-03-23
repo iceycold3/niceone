@@ -1,6 +1,6 @@
 // represents the haste-application
 var haste = function() {
-	this.appName = "niceone.lol";
+	this.appName = "thigh.pics";
 	this.$textarea = $('textarea');
 	this.$box = $('#code');
 	this.$code = $('#code code');
