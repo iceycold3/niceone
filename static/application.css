@@ -2,7 +2,7 @@ html {
 	height: 100%;
 }
 body {
-	background: #871d1d; /* Dark red background */
+	background: #000000; /* Pure black background */
 	height: 90%;
 	margin: 0;
 	padding: 1em;
@@ -12,9 +12,9 @@ body {
 	padding: 0;
 }
 textarea {
-	background: #6d2020; /* Dark red textarea background */
+	background: #121212; /* Near-black textarea background */
 	border: 0;
-	color: #f0e0e0; /* Light color for contrast */
+	color: #ffffff; /* Pure white text */
 	font-family: monospace;
 	font-size: 1em;
 	height: 100%;
@@ -22,7 +22,6 @@ textarea {
 	padding: 0;
 	resize: none;
 	width: 100%;
-	border-radius: 2px;
 }
 #code {
 	border: 0;
@@ -31,18 +30,17 @@ textarea {
 	outline: none;
 	padding: 0 0 4em 0;
 	white-space: pre-wrap;
-	background: #6d2020; /* Matching textarea background */
 }
 #code code {
 	background: transparent !important;
 	padding: 0;
-	color: #f0e0e0; /* Light color for contrast */
+	color: #ffffff; /* White code text */
 }
 pre {
 	counter-reset: line-numbering;
 }
 pre .line::before {
-	color: #c27878; /* Medium-light red for line numbers */
+	color: #777777; /* Grey for line numbers */
 	content: counter(line-numbering);
 	counter-increment: line-numbering;
 	display: inline-block;
@@ -57,26 +55,29 @@ pre .line::before {
 	user-select: none;
 }
 #tools {
-	background: #5a1a1a; /* Darker red for toolbar */
+	background: #1a1a1a; /* Dark gray toolbar */
 	bottom: 0;
 	font-size: 0;
 	left: 0;
 	position: fixed;
 	width: 100%;
+	border-top: 1px solid #333333; /* Subtle border */
 }
 #tools .function {
-	background: url(function-icons.png);
+	background: url(function-icons.png); /* Note: You may need to replace with white icons */
 	display: inline-block;
 	height: 37px;
 	position: relative;
 	width: 32px;
+	filter: invert(1); /* This will invert colors to make icons white */
 }
 #tools .link embed {
 	vertical-align: bottom;
+	filter: invert(1); /* Make embedded content white */
 }
 #tools .function.enabled:hover {
 	cursor: pointer;
-	background-color: #7a2525; /* Hover effect */
+	background-color: #333333; /* Dark gray hover effect */
 }
 #tools .function.save {
 	background-position: -5px top;
